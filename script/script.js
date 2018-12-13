@@ -28,7 +28,7 @@ var Messenger = function(el){
     m.fadeBuffer = false;
     m.messages = [
       'This is my work',
-      'Scroll down to see it!',
+      'Scroll down!',
     ];
     
     setTimeout(m.animateIn, 100);
