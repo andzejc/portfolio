@@ -599,14 +599,13 @@ iframe {
 		display: none;
 		position: absolute;
 		background-color: #f9f9f9;
-		min-width: 400px;
+		width: 400px;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		z-index: 1; }
 				 
 	.dropdown-content a {
 		font-size: 20px;
 		text-align: center;
-		width: 400px;
 		height: auto;
 		color: black;
 		padding: 12px 16px;
@@ -626,7 +625,16 @@ iframe {
 }
 
 @media screen and (max-width: 985px) {
+	video{
+		display: none;
+	}
+	.box2{
+		background-image: url("../img/code.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 .box3_2{
+	min-height: 420px;
 	padding: 20px
 }
 .box3_2 p{
@@ -635,19 +643,17 @@ iframe {
 .box3_2 h2{
 	font-size: 20px;
 }
+#messenger {
+	font-size: 50px;
 }
+}
+
 @media screen and (max-width: 700px) {
-	video{
-		display: none;
-	}
+
 	.flex{
 		flex-direction: column;
 	}
-	.box2{
-		background-image: url("../img/code.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
+
 	.box3 div{
 		align-items:center;
 	}
@@ -661,4 +667,27 @@ iframe {
 		display: none;
 	}
 
+}
+@media screen and (max-width: 575px) {
+	h2{
+		font-size: 25px;
+	}
+	p{
+		font-size: 13px;
+	}
+	header {
+		width: 300px;
+	}
+	.dropdown-content {
+		width: 300px;
+}
+.dropbtn {
+	width: 300px;
+}
+.box3_1{
+	width: 300px;
+}
+.grid{
+	grid-gap: 15px;
+}
 }
