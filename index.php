@@ -8,6 +8,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<link rel="shortcut icon" href="img/1.png">
+	<meta name="description" content="Hi I'm Andzej. Junior full stack developer">
+	<meta name="keywords" content="full stack, java, php, css, html, javascript">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
@@ -66,10 +68,10 @@
 			<div class="box3_2">
 
 				<h2>About Me</h2>
-				<p> Hi my name is Andzej. I'm 31 years old, and live in Lithuania. <br> I got my first comemercial work with IT as
+				<p> Hi my name is Andzej. I'm 31 years old and live in Lithuania. <br> I did my first commercial work in IT as
 					a network security programer from 2008 to 2017. <br>
-					I began programming from 2017. I began learning Java at "Baltic Institute of Technology"
-					in 2018. Now I'm a self employed person and can make projects using: HTML, CSS, JS, Jquery, Php and Java. <br>
+					I began programming in 2017. I began learning Java at "Baltic Institute of Technology"
+					in 2018. Now I'm a self employed person and I can make projects using: HTML, CSS, JS, Jquery, Php and Java. <br>
 					All my work is on GitHub.
 				</p>
 			</div>
@@ -222,11 +224,12 @@
 
 					</div>
 					<div>
+							<p><?php include( 'php/counter.php' ); ?></p>
 						<p>&copy; 2018 by Andzej Cernevic</p>
 					</div>
 					<div>
 						<address> Lauko 4 St, Jasiunai LT-17249 <br />
-							Lithuania<br />
+							Lithuania<br/>
 							Phone: +370(673)10 342 <br />
 							Email: andzej.cernevic@gmail.com
 						</address>
